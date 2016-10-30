@@ -50,10 +50,10 @@ count = 0 #カウントに使う変数の宣言と初期化
 while line:
     line = line[:-1] #最後の改行文字を消す
     result = access_server(url,username,line)
-    #null（厳密には正しいか怪しい）が関数から返ってきた場合
+    #Trueが返ってきた（エラーを起こさなかった）場合
     if result:
         break #ループの終了
-    #nullが返ってこなかった時
+    #Falseが返ってきた（エラーを起こした）場合
     else:
         #カウント
         count = count + 1
