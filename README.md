@@ -1,0 +1,2 @@
+# DictionaryAttackTool
+辞書型攻撃を仕掛けるプログラム
