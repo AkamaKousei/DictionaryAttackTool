@@ -3,7 +3,7 @@
 
 import urllib2
 
-#サーバとの接続
+###サーバとの接続
 def access_server(url,username,password):
     try:
         # ユーザ名とパスワードを登録する
